@@ -1,0 +1,26 @@
+.container{
+    margin-top: 5rem;
+    background-color: aqua;
+}
+.heading{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.span{
+    color: #ec4343;
+    position: relative;
+    display: inline;
+    margin-left: 1rem;
+}
+.span_image{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: -1;
+    max-width: 12%;
+    background-color: red ;
+    transform: translate(-50%,-50%)
+
+}

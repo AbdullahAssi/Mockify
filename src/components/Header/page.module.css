@@ -1,0 +1,26 @@
+.container{
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.header{
+    position: fixed;
+    top: 20px;
+    border-radius: 50px;
+    height: 60px;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(236, 67, 67, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.link{
+    padding: 2rem;
+}
