@@ -1,13 +1,14 @@
 'use client'
+import Gallery from '@/components/Gallery/gallery'
 import Hero from '@/components/Hero/Hero'
-import Header from '@/components/Header'
+
 
 
 export default function Home() {
   return (
     <main >
-      <Header />
       <Hero />
+      <Gallery />
     </main>
     )
 }

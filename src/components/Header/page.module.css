@@ -6,6 +6,7 @@
     justify-content: center;
 
 }
+
 .header{
     position: fixed;
     top: 20px;
@@ -15,7 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: rgba(236, 67, 67, 0.25);
+    background: rgba(110, 105, 105, 0.25);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
@@ -23,4 +24,10 @@
 }
 .link{
     padding: 2rem;
+    text-decoration: none;
+    color: black;
+}
+.activeLink{
+    color: red;
+    
 }

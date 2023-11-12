@@ -18,7 +18,11 @@ import image17 from '../public/17.png'
 import image18 from '../public/18.png'
 import image19 from '../public/19.png'
 import image20 from '../public/20.png'
-import image21 from '../public/shape_96.svg'
+import image21 from '../public/21.png'
+import image22 from '../public/22.png'
+import image24 from '../public/24.png'
+import image23 from '../public/shape_96.svg'
+
 
 export {
     image1,
@@ -41,22 +45,30 @@ export {
     image18,
     image19,
     image20,
-    image21
+    image21,
+    image22,
+    image23,
+    image24
 }
+
 
 
 export const navLinks = [
     {
         heading: 'Home',
+        link: '/'
     },
     {
         heading: 'About',
+        link: '/about'
     },
     {
         heading: 'Services',
+        link: '/services'
     },
     {
         heading: 'Contact',
+        link: '/contact'
     }
 ]
     
