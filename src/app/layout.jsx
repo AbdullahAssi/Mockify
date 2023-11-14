@@ -1,5 +1,6 @@
 import './globals.css'
 import Header from '@/components/Header'
+import local from 'next/font/local'
 import localFont from 'next/font/local'
 
 export const metadata = {
@@ -21,6 +22,11 @@ const Ppe = localFont({
   variable: "--font-ppe",
   fontDisplay: 'swap', 
 })
+const ppe_italic = localFont({
+  src: './localfont/PPEditorialNew-Italic.1d7842d.woff2',
+  formats: ['woff2'],
+  variable: "--ppe_italic"
+})
 
 
 export default function RootLayout({ children }) {
@@ -28,7 +34,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body >
         <Header />
-        <main className={`${Ppe.variable} ${neue.variable}`}>
+        <main className={`${Ppe.variable} ${neue.variable} ${ppe_italic.variable}`}>
         {children}
         </main>
         </body>

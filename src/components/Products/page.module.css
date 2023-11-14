@@ -1,0 +1,29 @@
+.products_container{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    margin: 1rem;
+    width: 100%;
+}
+.hello{
+    max-width: 20rem;
+}
+.product_box_container{
+    width: 100%;
+    min-width: 40rem;
+    background-color: red;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    
+    
+}
+.titles{
+    background-color: rgb(143, 58, 58);
+    padding: 1rem;
+    margin: 1rem;
+    max-width: 220px;
+}
+.icon{
+    font-size: 1rem;
+}

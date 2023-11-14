@@ -72,3 +72,138 @@ export const navLinks = [
     }
 ]
     
+export const products = [
+    {
+        id:1,
+        Icon: "MdDesignServices", 
+        title: "Product 1",
+        desc: "Annuities are just a product. They are not a plan. So depending on your personal situation, an annuity may or may not be right for you. An annuity can replace an accumulation strategy or create guaranteed growth, and it can even create private pension-like income. But does it make sense for you?"
+    },
+    {
+        id:2,
+        Icon: "MdDesignServices",
+        title: "Product 2",
+        desc: "Annuities are just a product. They are not a plan. So depending on your personal situation, an annuity may or may not be right for you. An annuity can replace an accumulation strategy or create guaranteed growth, and it can even create private pension-like income. But does it make sense for you?"
+    },
+    {
+        id:3,
+        Icon: "MdDesignServices", 
+        title: "Product 1",
+        desc: "Annuities are just a product. They are not a plan. So depending on your personal situation, an annuity may or may not be right for you. An annuity can replace an accumulation strategy or create guaranteed growth, and it can even create private pension-like income. But does it make sense for you?"
+    },
+    {
+        id:4,
+        Icon: "MdDesignServices",
+        title: "Product 2",
+        desc: "Annuities are just a product. They are not a plan. So depending on your personal situation, an annuity may or may not be right for you. An annuity can replace an accumulation strategy or create guaranteed growth, and it can even create private pension-like income. But does it make sense for you?"
+    },
+]
+
+
+export const footerLinks = [
+    {
+        title: "Useful Links",
+        links: [
+        {
+            name: "Content",
+            link: "https://www.hoobank.com/content/",
+        },
+        {
+            name: "How it Works",
+            link: "https://www.hoobank.com/how-it-works/",
+        },
+        {
+            name: "Create",
+            link: "https://www.hoobank.com/create/",
+        },
+        {
+            name: "Explore",
+            link: "https://www.hoobank.com/explore/",
+        },
+        {
+            name: "Terms & Services",
+            link: "https://www.hoobank.com/terms-and-services/",
+        },
+        ],
+    },
+    {
+        title: "Community",
+        links: [
+        {
+            name: "Help Center",
+            link: "https://www.hoobank.com/help-center/",
+        },
+        {
+            name: "Partners",
+            link: "https://www.hoobank.com/partners/",
+        },
+        {
+            name: "Suggestions",
+            link: "https://www.hoobank.com/suggestions/",
+        },
+        {
+            name: "Blog",
+            link: "https://www.hoobank.com/blog/",
+        },
+        {
+            name: "Newsletters",
+            link: "https://www.hoobank.com/newsletters/",
+        },
+    ],
+    },
+    {
+        title: "Partner",
+        links: [
+        {
+            name: "Our Partner",
+            link: "https://www.hoobank.com/our-partner/",
+        },
+        {
+            name: "Become a Partner",
+            link: "https://www.hoobank.com/become-a-partner/",
+        },
+        ],
+    },
+];
+
+// export const socialMedia = [
+//     {
+//         id: "social-media-1",
+//         icon: instagram,
+//         link: "https://www.instagram.com/abdullahassi225/",
+//     },
+//     {
+//         id: "social-media-2",
+//         icon: facebook,
+//         link: "https://www.facebook.com/profile.php?id=100023282378097",
+//     },
+//     {
+//         id: "social-media-3",
+//         icon: twitter,
+//         link: "https://www.twitter.com/",
+//     },
+//     {
+//         id: "social-media-4",
+//         icon: linkedin,
+//         link: "https://www.linkedin.com/in/muhammad-abdullah-796597246/",
+//     },
+// ];
+
+// export const clients = [
+//     {
+//         id: "client-1",
+//         logo: airbnb,
+//     },
+//     {
+//         id: "client-2",
+//         logo: binance,
+//     },
+//     {
+//         id: "client-3",
+//         logo: coinbase,
+//     },
+//     {
+//         id: "client-4",
+//         logo: dropbox,
+//         },
+// ];

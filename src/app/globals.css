@@ -9,6 +9,9 @@
 .ppe{
   font-family: var(--font-ppe);
 }
+.ppe_italic{
+  font-family: var(--ppe_italic);
+}
 .loader_container{
     display: flex;
     justify-content: center;

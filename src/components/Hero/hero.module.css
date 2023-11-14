@@ -22,6 +22,8 @@
 }
 .ppe{
     font-family: var(--font-ppe);
+    /* font-style: italic; */
+    /* font-family: var(--ppe_italic); */
 }
 .span{
     color: #ec4343;

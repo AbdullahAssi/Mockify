@@ -1,0 +1,40 @@
+.ppe_italic{
+    font-family: var(--ppe_italic);
+    color: #ce0000;
+    margin-top: 5rem;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.loader_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: white;
+    position: relative;
+}
+.loader {
+  position: relative;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #FF3D00;
+  }
+  .loader:before,
+  .loader:after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    inset: 0;
+    background: #ce0000;
+    transform: rotate(0deg) translate(30px);
+    animation: rotate 1s ease infinite;
+  }
+  .loader:after {
+    animation-delay: 0.5s
+  }
+  @keyframes rotate {
+    100% {transform: rotate(360deg) translate(30px)
+  }
+    }  

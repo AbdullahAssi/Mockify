@@ -9,11 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
     "@studio-freight/lenis": "^1.0.27",
     "framer-motion": "^10.16.4",
     "next": "14.0.2",
     "react": "^18",
     "react-dom": "^18",
+    "react-icons": "^4.12.0",
     "sass": "^1.69.5"
   },
   "devDependencies": {

@@ -1,9 +1,11 @@
-import styles from './globals.css'
+import styles from './page.module.css'
 export default function Loading(){
     return (
+        <>
+            {/* <h1 className={styles.ppe_italic}>Loading</h1> */}
         <div className={styles.loader_container}>
-            <h1>Loading</h1>
             <span className={styles.loader}></span>
         </div>
+        </>
     )
 }
