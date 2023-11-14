@@ -22,6 +22,7 @@ import image21 from '../public/21.png'
 import image22 from '../public/22.png'
 import image24 from '../public/24.png'
 import image23 from '../public/shape_96.svg'
+import { MdDesignServices } from 'react-icons/md'
 
 
 export {
@@ -75,25 +76,25 @@ export const navLinks = [
 export const products = [
     {
         id:1,
-        Icon: "MdDesignServices", 
+        icon: MdDesignServices,
         title: "Product 1",
         desc: "Annuities are just a product. They are not a plan. So depending on your personal situation, an annuity may or may not be right for you. An annuity can replace an accumulation strategy or create guaranteed growth, and it can even create private pension-like income. But does it make sense for you?"
     },
     {
         id:2,
-        Icon: "MdDesignServices",
+        icon: MdDesignServices,
         title: "Product 2",
         desc: "Annuities are just a product. They are not a plan. So depending on your personal situation, an annuity may or may not be right for you. An annuity can replace an accumulation strategy or create guaranteed growth, and it can even create private pension-like income. But does it make sense for you?"
     },
     {
         id:3,
-        Icon: "MdDesignServices", 
+        icon: MdDesignServices,
         title: "Product 1",
         desc: "Annuities are just a product. They are not a plan. So depending on your personal situation, an annuity may or may not be right for you. An annuity can replace an accumulation strategy or create guaranteed growth, and it can even create private pension-like income. But does it make sense for you?"
     },
     {
         id:4,
-        Icon: "MdDesignServices",
+        icon: MdDesignServices,
         title: "Product 2",
         desc: "Annuities are just a product. They are not a plan. So depending on your personal situation, an annuity may or may not be right for you. An annuity can replace an accumulation strategy or create guaranteed growth, and it can even create private pension-like income. But does it make sense for you?"
     },
