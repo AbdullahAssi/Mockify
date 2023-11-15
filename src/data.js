@@ -23,6 +23,8 @@ import image22 from '../public/22.png'
 import image24 from '../public/24.png'
 import image23 from '../public/shape_96.svg'
 import { MdDesignServices } from 'react-icons/md'
+import { FaCode, FaShirt, FaTable, FaTshirt } from 'react-icons/fa'
+import {RiSeoFill, RiSeoLine, RiTBoxLine } from 'react-icons/ri'
 
 
 export {
@@ -77,24 +79,24 @@ export const products = [
     {
         id:1,
         icon: MdDesignServices,
-        title: "Product 1",
+        title: "UI/UX Design",
         desc: "Annuities are just a product. They are not a plan. So depending on your personal situation, an annuity may or may not be right for you. An annuity can replace an accumulation strategy or create guaranteed growth, and it can even create private pension-like income. But does it make sense for you?"
     },
     {
         id:2,
-        icon: MdDesignServices,
-        title: "Product 2",
+        icon: FaTshirt,
+        title: "Mockup",
         desc: "Annuities are just a product. They are not a plan. So depending on your personal situation, an annuity may or may not be right for you. An annuity can replace an accumulation strategy or create guaranteed growth, and it can even create private pension-like income. But does it make sense for you?"
     },
     {
         id:3,
-        icon: MdDesignServices,
-        title: "Product 1",
+        icon: RiSeoFill,
+        title: "Design Idea",
         desc: "Annuities are just a product. They are not a plan. So depending on your personal situation, an annuity may or may not be right for you. An annuity can replace an accumulation strategy or create guaranteed growth, and it can even create private pension-like income. But does it make sense for you?"
     },
     {
         id:4,
-        icon: MdDesignServices,
+        icon: FaCode,
         title: "Product 2",
         desc: "Annuities are just a product. They are not a plan. So depending on your personal situation, an annuity may or may not be right for you. An annuity can replace an accumulation strategy or create guaranteed growth, and it can even create private pension-like income. But does it make sense for you?"
     },

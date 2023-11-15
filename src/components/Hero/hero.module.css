@@ -46,6 +46,11 @@
     flex-direction: column;
     position: relative;
 }
+.image1{
+    width: 600px;
+    max-height: 200px;
+    background-color: #ec4343;
+}
 .image2{
     position: absolute;
     max-width: 200px;

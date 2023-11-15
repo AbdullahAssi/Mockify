@@ -1,11 +1,12 @@
 'use client'
 import React from 'react'
 import { MdDesignServices } from "react-icons/md";
+import { FaShirt } from 'react-icons/fa'
 import styles from './page.module.css'
 import { products } from '@/data';
 function Products() {
     return (
-        <div>
+        <div className={styles.main_container}>
         <p className='ppe'>Our Products</p>
         <div className={styles.products_container}>
             <div className={styles.hello}>
@@ -17,8 +18,8 @@ function Products() {
             <div className={styles.product_box_container} >
                     {products.map((pro, index) => (
                                 <div className={styles.titles} key={index}>
-                                    <h3 className='ppe'>{pro.title}</h3>
                                     <pro.icon className={styles.icon} />
+                                    <h5 className='neue'>{pro.title}</h5>
                                     <p className='neue'>{pro.desc}</p>
                                 </div>
                         ))}

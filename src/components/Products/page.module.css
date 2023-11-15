@@ -1,4 +1,12 @@
-
+.main_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+.main_container>p{
+    margin-left: 3rem;
+}
 .products_container{
     display: flex;
     align-items:baseline;
@@ -24,15 +32,19 @@
     flex-wrap: wrap;
 }
 .titles{
-    background-color: rgb(143, 58, 58);
+    background-color: rgb(204, 204, 204);
     padding: 1rem;
     margin: 1rem;
     width: 100%;
     border-radius:.5rem;
     max-width: 300px;
+    display: flex;
+      flex-direction: column;
+    box-shadow: 0 0 4px rgba(0,0,0,0.2);
+    gap: 1rem;
 }
 .icon{
-    font-size: 1rem;
+    font-size: 2rem;
 }
 @media(max-width:769px){
     .products_container{

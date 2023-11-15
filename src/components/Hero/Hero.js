@@ -14,12 +14,12 @@ function Hero() {
                 <div className={styles.image1}>
                     <Image src= {image24}  />
                 </div>
-                <div className={styles.image2}>
+                {/* <div className={styles.image2}>
                     <Image src= {image20}  />
-                </div>
-                <div className={styles.image3}>
+                </div> */}
+                {/* <div className={styles.image3}>
                     <Image src= {image19} />
-                </div>
+                </div> */}
             </div>
         </div>
     )
