@@ -20,14 +20,30 @@ import image19 from '../public/19.png'
 import image20 from '../public/20.png'
 import image21 from '../public/21.png'
 import image22 from '../public/22.png'
-import image24 from '../public/24.png'
+import image25 from '../public/23.png'
+import image24 from '../public/90.png'
 import image23 from '../public/shape_96.svg'
+import image26 from '../public/pattern2.png'
+import image27 from '../public/pattern6.png'
+import image28 from '../public/slider_pattern1.png'
+import image29 from '../public/slider_pattern6-1.png'
+import image30 from '../public/welcome_pattern1.png'
+import image31 from '../public/welcome_pattern2.png'
+import image32 from '../public/welcome_pattern4.png'
 import { MdDesignServices } from 'react-icons/md'
 import { FaCode, FaShirt, FaTable, FaTshirt } from 'react-icons/fa'
 import {RiSeoFill, RiSeoLine, RiTBoxLine } from 'react-icons/ri'
 
 
 export {
+    image26,
+    image27,
+    image28,
+    image29,
+    image30,
+    image31,
+    image32,
+    image25,
     image1,
     image2,
     image3,
@@ -52,6 +68,7 @@ export {
     image22,
     image23,
     image24
+
 }
 
 
