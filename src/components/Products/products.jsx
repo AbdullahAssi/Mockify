@@ -1,7 +1,5 @@
 'use client'
 import React from 'react'
-import { MdDesignServices } from "react-icons/md";
-import { FaShirt } from 'react-icons/fa'
 import styles from './page.module.css'
 import { products } from '@/data';
 function Products() {
