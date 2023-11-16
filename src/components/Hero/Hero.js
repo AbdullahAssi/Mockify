@@ -8,14 +8,14 @@ function Hero() {
             <div className={styles.text_container}>
 
             <h1 className={`${styles.heading} ${styles.ppe}`}>We Bring Your Ideas To Life</h1>
-            <p className='neue'>Your journey through </p>
+            <p className='neue'>Your journey through the design and its days</p>
+                <div className={styles.image2}>
+                    <Image src= {image26}  />
+                </div>
             </div>
             <div className={styles.image_container}>
                 <div className={styles.image1}>
                     <Image src= {image25}  />
-                </div>
-                <div className={styles.image2}>
-                    <Image src= {image26}  />
                 </div>
                 <div className={styles.image3}>
                     <Image src= {image27} />
