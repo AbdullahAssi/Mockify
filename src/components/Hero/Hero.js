@@ -8,7 +8,7 @@ function Hero() {
             <div className={styles.text_container}>
 
             <h1 className={`${styles.heading} ${styles.ppe}`}>We Bring Your Ideas To Life</h1>
-            <p className='neue'>Your journey through the design and its days</p>
+            <p className='neue'>Your Ideas and everything mean very much to us, so we could help to change the world a bit for sure.</p>
                 <div className={styles.image2}>
                     <Image src= {image26}  />
                 </div>
