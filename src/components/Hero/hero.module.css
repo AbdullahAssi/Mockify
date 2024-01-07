@@ -11,6 +11,8 @@
     align-items: center;
     justify-content: center;
     max-width: 50%;
+    padding-inline: 5rem;
+    /* background-color: black; */
     position: relative;
 }
 
@@ -115,5 +117,6 @@
 @media(max-width: 720px){
     .text_container{
         max-width: 100%;
+        padding: 0px;
     }
 }

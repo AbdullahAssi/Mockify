@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    
+}
+.about_container{
+    display: flex;
+    flex-direction: column;
+}
+.About{
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+.about1{
+    display: flex;
+    height: 60vh;
+    /* width: 100%; */
+    flex: 2;
+    align-items: end;
+    border: 1px solid black;
+}
+.about2{
+    flex: 1;
+    display: flex;
+    align-items: end;
+    height: 170px;
+    width: 300px;
+    border:  1px solid grey;
+}
